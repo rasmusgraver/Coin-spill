@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <title>The coin collector</title>
+
+    <style>
+        canvas{
+            margin: 40px;
+            border: 2px solid rgba(168, 55, 168);
+            background-color: aliceblue;
+        }
+
+        #gameUI {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+   
+            
+    <div id="gameUI">
+        <canvas></canvas>
+        
+        <div id="game_display">
+            <a href="index.html"><i class="material-symbols-outlined" id="hjemicon">
+                house</i></a>
+        <div id="number">
+            Score: <span id="score">0</span>
+        </div>
+        <div id="timer">Tid igjen: 20 sekunder</div>
+    </div>
+
+    </div>
+
+    <audio id="coin_collect" src="audio/coin_collect.mp3"></audio>
+    <audio id="coin_spawn" src="audio/coin_spawn.mp3"></audio>
+    <audio id="game_over" src="audio/GameOver.mp3"></audio>
+    <audio id="game_over" src="audio/GameOver.mp3"></audio>
+    <audio id="music" src="audio/music.mp3"></audio>
+
+    <script src="spill.js"></script>
+</body>
+</html>

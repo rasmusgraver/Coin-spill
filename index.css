@@ -1,0 +1,71 @@
+body{
+    background-color: lightblue;
+}
+
+#hjemicon{
+    font-size: 40px;
+
+}
+
+#musikk{
+    margin-top: -30px;
+
+}
+
+
+header{
+    display: flex;
+    font-size: 40px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    align-items: center;
+}
+
+header button{
+    height: 50px;
+    margin-bottom: -50;
+}
+
+
+.tekst{
+display: grid;
+justify-content: center;
+color: whitesmoke;
+text-shadow:
+-1px -1px 0 black,
+1px -1px 0 black,
+-1px 1px 0 black,
+1px 1px 0 black;
+}
+
+canvas{
+    margin: 10px;
+    border: 2px solid rgba(168, 55, 168);
+    background-color: aliceblue;
+}
+
+#gameUI {
+    text-align: center;
+}
+
+#game_display{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.info img{
+    width: 300px;
+    margin: 30px;
+}
+
+/* button{
+    height: 50px;
+    width: 100px;
+    margin: 30px;
+    margin-bottom: 70px;
+} */
